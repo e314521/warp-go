@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/peanut996/CloudflareWarpSpeedTest/task"
-	"github.com/peanut996/CloudflareWarpSpeedTest/utils"
+	"github.com/e314521/warp-go/task"
+	"github.com/e314521/warp-go/utils"
 )
 
 var (

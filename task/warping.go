@@ -7,9 +7,6 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"golang.org/x/crypto/blake2s"
-	"golang.org/x/crypto/poly1305"
-	"golang.zx2c4.com/wireguard/tai64n"
 	"log"
 	"math/rand"
 	"net"
@@ -19,10 +16,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/peanut996/CloudflareWarpSpeedTest/utils"
-
+	"github.com/e314521/warp-go/utils"
+	"golang.org/x/crypto/blake2s"
+	"golang.org/x/crypto/poly1305"
 	"golang.zx2c4.com/wireguard/conn"
 	"golang.zx2c4.com/wireguard/device"
+	"golang.zx2c4.com/wireguard/tai64n"
 	"golang.zx2c4.com/wireguard/tun/netstack"
 )
 
